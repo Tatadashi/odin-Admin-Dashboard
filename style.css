@@ -1,3 +1,32 @@
 * {
     margin: 0;
 }
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid:
+    'sidebar header' auto
+    'sidebar main-content' auto
+    / 1fr 4fr;
+    min-height: 100%;
+}
+
+.sidebar {
+    background-color: aqua;
+    grid-area: sidebar;
+}
+
+.header {
+    background-color: tan;
+    grid-area: header;
+}
+
+.main-content {
+    background-color: beige;
+    grid-area: main-content;
+}
