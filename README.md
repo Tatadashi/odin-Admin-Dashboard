@@ -10,9 +10,16 @@ Icon Library: [Pictogrammers library called Material Design Icons](https://picto
 
 atom (logo): [Roberto Graham](https://pictogrammers.com/contributor/RobertoGraham/) 
 clock-time-three (history): [Michael Irigoyen](https://pictogrammers.com/contributor/mririgoyen/)
-file-multiple (tasks): [Simran](https://pictogrammers.com/contributor/Simran-B/)
 account-group (communities): [GreenTurtwig](https://pictogrammers.com/contributor/GreenTurtwig/)
-help-box (support): [Austin Andrews](https://pictogrammers.com/contributor/Templarian/)
+
+following icons by [Simran](https://pictogrammers.com/contributor/Simran-B/):
+file-multiple (tasks)
+ghost (@Ghastly_Pac)
+
+following icons by [Austin Andrews](https://pictogrammers.com/contributor/Templarian/):
+help-box (support)
+leaf (@Grass)
+cat (@El_Gato)
 
 following icons by [Google](https://pictogrammers.com/contributor/google/):
 home (home)
@@ -20,3 +27,4 @@ message-reply (messages)
 cog (settings)
 shield-check (privacy)
 badge-account-horizontal-outline (profile)
+fire (@Robert)
