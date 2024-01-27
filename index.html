@@ -43,7 +43,33 @@
                 <h3>Privacy</h3>
             </div>
         </div>
-        <div class="header">&nbsp;</div>
+        <div class="header">
+            <div id="header-top">
+                <div id="search-bar-container">
+                    <img src="./images/magnify.svg" alt="search magnifying glass">
+                    <input type="text" name="search-bar" id="search-bar-id">
+                </div>
+                <div id="user-interface">
+                    <button onclick="alert('0 notifications')"><img src="./images/bell-ring-outline.svg" alt="notification bell ring"></button>
+                    <img class="user-icon" src="./images/fire.svg" alt="current user profile picture">
+                    <h3>Robert Smith </h3>
+                </div>
+            </div>
+            <div id="header-bot">
+                <div class="header-profile">
+                    <img id="user-profile" src="./images/fire.svg" alt="current user profile picture">
+                    <div id="user-name-greeting">
+                        <p>Hi there,</p>
+                        <h2>Robert Smith (@Robert)</h2>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button onclick="alert('create new post')" class="header-button">New</button>
+                    <button onclick="alert('upload post')"class="header-button">Upload</button>
+                    <button onclick="alert('share post')"class="header-button">Share</button>
+                </div>
+            </div>
+        </div>
         <div class="main-content">&nbsp;</div>
     </div>
 </body>

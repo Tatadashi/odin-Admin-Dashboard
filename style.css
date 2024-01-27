@@ -7,15 +7,16 @@ body {
     height: 100%;
 }
 
-img {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+button > img {
+    height: 1rem;
+    align-self: center;
 }
 
 .container {
     display: grid;
     grid:
-    'sidebar header' auto
-    'sidebar main-content' auto
+    'sidebar header' 1fr
+    'sidebar main-content' 4fr
     / 1fr 4fr;
     min-height: 100%;
 }
@@ -23,6 +24,10 @@ img {
 .sidebar {
     background-color: #4169E1;
     grid-area: sidebar;
+}
+
+.sidebar img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
 #logo-section {
@@ -48,8 +53,98 @@ img {
 }
 
 .header {
-    background-color: tan;
+    background-color: white;
     grid-area: header;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+#header-top {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+
+#search-bar-container {
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 3rem;
+}
+
+#search-bar-id {
+    border-radius: 20px;
+    border: none;
+    background-color: lightgray;
+}
+
+#search-bar-id:focus {
+    outline: none;
+}
+
+#user-interface {
+    display: grid;
+    grid-template-columns: 1rem 1.7rem auto;
+    align-items: center;
+    justify-content: right;
+    padding-left: 6rem;
+    padding-right: 3rem;
+    gap: 1.5rem;
+}
+
+#user-interface > button {
+    border: none;
+    background-color: transparent;
+}
+
+.user-icon {
+    height: 1.7rem;
+}
+
+.user-icon,
+#user-profile {
+    background-color: goldenrod;
+    border-radius: 50%;
+}
+
+#header-bot {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 4fr 3fr;
+}
+
+.header-profile {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    padding-left: 3rem;
+    gap: 0.5rem;
+}
+
+#user-profile {
+    height: 3rem;
+}
+
+.header-profile p {
+    font-size: small;
+    font-weight: bold;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem;
+    justify-content: right;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+
+.header-button {
+    border-radius: 2rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: #4169E1;
+    color: white;
+    font-weight: bold;
+    border: none;
 }
 
 .main-content {
