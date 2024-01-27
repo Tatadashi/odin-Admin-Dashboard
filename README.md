@@ -9,8 +9,14 @@ Icon Credits:
 Icon Library: [Pictogrammers library called Material Design Icons](https://pictogrammers.com/library/mdi/)
 
 atom (logo): [Roberto Graham](https://pictogrammers.com/contributor/RobertoGraham/) 
-clock-time-three (history): [Michael Irigoyen](https://pictogrammers.com/contributor/mririgoyen/)
-account-group (communities): [GreenTurtwig](https://pictogrammers.com/contributor/GreenTurtwig/)
+
+following icons by [Michael Irigoyen](https://pictogrammers.com/contributor/mririgoyen/):
+clock-time-three (history)
+star-plus-outline (favorite)
+
+following icons by [GreenTurtwig](https://pictogrammers.com/contributor/GreenTurtwig/):
+account-group (communities)
+eye-plus-outline (watch list)
 
 following icons by [Simran](https://pictogrammers.com/contributor/Simran-B/):
 file-multiple (tasks)
@@ -20,6 +26,7 @@ following icons by [Austin Andrews](https://pictogrammers.com/contributor/Templa
 help-box (support)
 leaf (@Grass)
 cat (@El_Gato)
+source-fork (fork)
 
 following icons by [Google](https://pictogrammers.com/contributor/google/):
 home (home)
