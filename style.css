@@ -150,4 +150,96 @@ button > img {
 .main-content {
     background-color: beige;
     grid-area: main-content;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    background-color: rgb(162, 201, 203);
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.main-content h4 {
+    padding-bottom: 0.5rem;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: linear-gradient(90deg, orange 0% 3%, white 3% 100%);
+    border-radius: 5px;
+    height: 105px;
+    display: grid;
+    grid-template-rows: 1rem 1fr 1rem;
+    padding-block: 5px;
+    padding-inline: 20px;
+}
+
+.card > p {
+    font-size: 12px;
+    color: rgb(106, 106, 106);
+}
+
+.card-button {
+    display: grid;
+    grid-template-columns: repeat(3, 1rem);
+    gap: 1rem;
+    justify-content: right;
+}
+
+.card-button > button {
+    border: none;
+    background-color: transparent;
+}
+
+#other-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-inline: 1rem;
+}
+
+#announcements-area {
+    background-color: #fff;
+    padding-block: 5px;
+    padding-inline: 20px;
+    height: 80%;
+    border-radius: 5px;
+}
+
+#announcements-area div:nth-child(3) {
+    border: none;
+    padding-block: 0px;
+}
+
+.announcement {
+    border-bottom: solid gray 2px;
+    padding-block: 10px;
+}
+
+.announcement > p {
+    font-size: 10px;
+    color: rgb(106, 106, 106);
+}
+
+#trending {
+    background-color: #fff;
+    padding-block: 5px;
+    padding-inline: 10px;
+    height: 73%;
+    border-radius: 5px;
+    display: grid;
+    gap: 10px;
+}
+
+.trending-user {
+    display: grid;
+    grid-template-columns: 1.7rem 1fr;
+    gap: 1rem;
+}
+
+.user-info > p {
+    font-size: 12px;
+    color: rgb(106, 106, 106);
 }
